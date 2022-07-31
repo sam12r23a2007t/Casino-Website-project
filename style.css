@@ -1,0 +1,387 @@
+* {
+  margin: 0vw;
+  padding: 0vw;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.side-nav {
+  display: none;
+  background-color: white;
+  opacity: 80%;
+  color: black;
+}
+.side-nav-list-links {
+  list-style: none;
+}
+.side-nav-list-close{
+    font-size: 2vw;
+}
+.side-nav-list-close:hover{
+    cursor: pointer;
+}
+.side-nav-list-item {
+  font-size: 1.5vw;
+  margin: 2vw;
+  padding: 2vw;
+}
+.side-nav {
+  position: fixed;
+}
+.header {
+  background-image: url("img/bg_main.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+  padding: 1vw 0.5vw;
+  margin-bottom: 50vw;
+}
+.left-nav {
+  padding: 1.5vw 2vw;
+  width: 5vw;
+}
+.right-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 2.5vw;
+  text-align: center;
+}
+.nav-btn {
+  padding: 1vw 1.8vw;
+  color: black;
+  background-image: linear-gradient(to bottom, #bc883d, #f5e47b, #bc883d);
+  border-radius: 30%;
+  display: block;
+  margin: auto;
+}
+.white{
+    color: #fff;
+}
+.icon {
+  display: block;
+  margin: auto;
+}
+.bar {
+  width: 3.5vw;
+  height: 0.4vw;
+  background-color: white;
+  margin: 1.2vw;
+}
+.header-content {
+  text-align: center;
+}
+.main-btn {
+  text-align: center;
+  padding: 1.5vw 3.5vw;
+  background-color: white;
+  margin: -2vw;
+}
+.main-btn:hover {
+  border: 2px solid #bc883d;
+  transition: 1s;
+  border-radius: 30%;
+  background-image: linear-gradient(to bottom, #bc883d, #f5e47b, #bc883d);
+  cursor: pointer;
+}
+.main-body {
+  background-color: #1b0905;
+  padding: 4vw 4vw;
+}
+.casinogames {
+  padding: 4vw 1vw;
+  text-align: center;
+}
+.heading {
+  color: #f5e47b;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 4vw;
+  border-bottom: 0.1vw solid #fff090;
+  padding-bottom: 2vw;
+  margin: 0vw 10vw;
+}
+.games {
+  margin: 1.5vw 0vw;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.game {
+  color: white;
+}
+.game-img {
+  border: 2vw solid #eb9b2b;
+}
+.game-text {
+  display: block;
+  margin: auto;
+  width: 10vw;
+  padding: 0.8vw 1.5vw;
+  background-color: white;
+  color: black;
+  margin-top: -2vw;
+  border: 0.5vh solid #bc883d;
+  left: 50%;
+}
+.licensing {
+  text-align: center;
+}
+.licensing-content {
+  text-align: left;
+  margin: 3vw 4vw;
+  padding: 5vw 8vw;
+  background-image: linear-gradient(to left, #bc883d, #f5e47b, #bc883d);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 2vw;
+}
+.licensing-content-heading {
+  color: #1b0905;
+  font-size: 3vw;
+  margin: 2vw 0vw;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 700;
+}
+.licensing-content-data {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1vw;
+  color: #1b0905;
+}
+.licensing-content-button {
+  margin: 2vw 0vw;
+  color: #f5e47b;
+  background-color: #1b0905;
+  padding: 0.7vw 2.2vw;
+}
+.licensing-content-button:hover {
+  transition: 1.2s;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border-radius: 1vw;
+}
+.licensing-important-text {
+  color: white;
+  margin: 2vw 2vw;
+  text-align: center;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav2 {
+  background-color: #1f0b04;
+}
+.nav2-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 2vw 4vw;
+  list-style: none;
+  color: #f5e47b;
+}
+.nav2-items {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.5vw;
+}
+.nav2-items:hover {
+  transition: 1s;
+  border-bottom: 0.1vh solid white;
+  cursor: pointer;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  margin: 4vw;
+  padding: 2vh;
+  text-align: center;
+}
+
+.about-img {
+  border: 2vh solid #bc883d;
+  margin: 2vw;
+}
+.right-content img {
+  width: 40vw;
+}
+.about-text {
+  font-size: 1.5vw;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  display: block;
+  margin: auto;
+}
+.message-to-customers {
+  text-align: center;
+  padding: 0vh 5vw;
+}
+.message-to-customers-heading {
+  margin-bottom: 5vw;
+}
+.message-content {
+  padding: 5vw;
+  background-color: white;
+  color: black;
+  display: block;
+  margin: auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1vw;
+}
+.user-pic {
+  display: block;
+  margin: auto;
+}
+.userpicimg {
+  border: 1vw solid #eb9b2b;
+  border-radius: 100%;
+}
+.username {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5vw;
+  color: #a16612;
+}
+.userwork {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1vw;
+  color: #fff;
+}
+.userdata {
+  margin: -5vw;
+}
+.input-data {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.4vw;
+  background: transparent;
+  padding: 1vw;
+  margin: 1.5vw;
+  color: white;
+  width: 100%;
+  border: none;
+  border-bottom: 0.1vw solid white;
+}
+.form {
+  margin: 6vw;
+}
+.contact {
+  margin: 10vw;
+  text-align: center;
+}
+.contact-btn {
+  padding: 0.8vw 3.2vw;
+  margin: 2vw;
+  color: white;
+  background: transparent;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: 0.1vw solid rgb(255, 255, 255);
+  border-radius: 2vw;
+}
+.contact-btn:hover {
+  transition: 1s;
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}
+.sub-links {
+  margin: 8vw;
+  margin-bottom: 0vh;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.footer-heading {
+  font-size: 3vw;
+  color: white;
+}
+.footer-links-items {
+  list-style: none;
+  color: #fff;
+}
+.footer-links-item {
+  padding: 0.6vw;
+  font-size: 1vw;
+  color: #fff;
+}
+.footer-contact-text-data {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1vw;
+  color: #fff;
+  text-align: center;
+}
+.contact-us-text {
+  margin: 0vw 2vw;
+}
+.links-footer {
+  margin: 0vh 3vw;
+}
+.footer {
+  background-image: linear-gradient(to left, #bc883d, #f5e47b, #bc883d);
+  padding: 2vw;
+  text-align: center;
+  color: #000;
+  font-size: 1.2vw;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+@media screen and (max-width: 1200px) {
+  .footer-links-item {
+    font-size: 1.2vw;
+  }
+  .game {
+    margin: 2vw;
+  }
+  .game-img img {
+    width: 15vw;
+  }
+  .game-text {
+    margin: 1.5vw;
+  }
+  .about-img img {
+    width: 25vw;
+  }
+  .licensing-content {
+    display: block;
+  }
+  .licensing-content-heading {
+    font-size: 6vw;
+  }
+  .licensing-content-data {
+    font-size: 2.5vw;
+    margin-bottom: 4vw;
+  }
+  .right-content img {
+    display: block;
+    margin: auto;
+    width: 40vw;
+  }
+  .about-text {
+    font-size: 2.2vw;
+  }
+  .heading {
+    font-size: 8vw;
+  }
+  .message-content {
+    font-size: 4vw;
+  }
+  .userpicimg {
+    width: 20vw;
+  }
+  .username {
+    font-size: 5vw;
+  }
+  .userwork {
+    font-size: 4vw;
+  }
+  .userdata {
+    margin: 2vw;
+  }
+  .footer-contact-text-data{
+    font-size: 1.5vw;
+  }
+}
